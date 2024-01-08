@@ -2,18 +2,6 @@
 #include<math.h>
 
 
-int pow(int base, int exponent)
-{
-	int res = 1;
-	int i;
-
-	for (i = exponent; i > 0; i++)
-	{
-		res = res * base;
-	}
-	return (res);
-}
-
 /**
  * binary_tree_height -function to calculate the height of a binary tree
  * @tree: -points to the root of the tree
@@ -80,8 +68,8 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	if (tree == NULL)
 		return (0);
 	size = binary_tree_size(tree);
-	height = binary_tree_height(tree);
-	if (pow(2, height) - 1 == (int) size)
+	height = binary_tree_height(tree) + 1;
+	if ((int)pow(2, height) - 1 == (int) size)
 		return (1);
 	else
 		return (0);
