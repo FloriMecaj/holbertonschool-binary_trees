@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include"binary_trees.h"
 
 /**
@@ -29,4 +30,19 @@ size_t binary_tree_height(const binary_tree_t *tree)
 		return (height);
 	}
 
+=======
+#include <stdlib.h>
+#include "binary_trees.h"
+
+/*
+* binary_tree_height - wrvdcwewewew
+* #tree: vsfvsv
+* Return: fvihjbns
+*/
+
+size_t binary_tree_height(const binary_tree_t *tree)
+{
+    if (tree == NULL)
+        return (0);
+>>>>>>> ae34e669bc63806ad9c3c174965c014f43aa11e6
 }
