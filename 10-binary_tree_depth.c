@@ -1,8 +1,8 @@
 #include"binary_trees.h"
 
 /**
- * binary_tree_depth -calculates the depth of a node
- * @tree -points to a root node
+ * binary_tree_depth - calculates the depth of a node
+ * @tree: points to a root node
  * Return: (depth)
  */
 

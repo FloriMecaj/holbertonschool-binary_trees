@@ -1,7 +1,7 @@
 #include"binary_trees.h"
 
 /**
- * binary_tree_nodes -claculates the nodes with at least one child
+ * binary_tree_nodes - claculates the nodes with at least one child
  * @tree: -points to the root of the tree
  * Return: (nodes)
  */

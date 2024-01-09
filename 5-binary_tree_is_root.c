@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "binary_trees.h"
 
-/*
+/**
 * binary_tree_is_root - ssssssss
 * @node: ajahcadjbv
 * Return: seuybv

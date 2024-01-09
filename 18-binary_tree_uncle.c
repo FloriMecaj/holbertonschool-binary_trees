@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 
-/*
+/**
  * binary_tree_uncle - hseagdhcvbac
  * @node: asjhghvb
  * Return: adgvhbca
